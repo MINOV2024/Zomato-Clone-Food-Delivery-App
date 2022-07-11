@@ -18,3 +18,4 @@ An android app, In which user can search any meal and also user can see the deta
     2. In Domain we write all business logic and Use Cases.
     3. In UI, We put all UI part like activity or fragment and ViewModels.
     4. This is for Constant class and many other custom features like utils.
+    //
