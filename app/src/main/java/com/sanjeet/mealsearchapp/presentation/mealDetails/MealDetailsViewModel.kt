@@ -19,6 +19,7 @@ class MealDetailsViewModel @Inject constructor(private val getMealDetailUseCase:
     val mealDetails :StateFlow<MealDeatilsState> = _mealDetails
 
 
+    //test
     fun getMealDetails(id:String){
         getMealDetailUseCase(id).onEach {
             when(it){
